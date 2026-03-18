@@ -1,0 +1,15 @@
+He creado una clase nueva llamada SpiralGenerator con un método generate(a, b, thetaMax, step).
+Cada punto tiene coordenadas(x, y) calculadas según la fórmula que he sacado
+ de https://es.wikipedia.org/wiki/Espiral_de_Arqu%C3%ADmedes
+r=a+b⋅θ. Esto hace que rellene la cola y la pila con los puntos de la espiral.
+
+por otro lado, los tests no funcionaban porque faltaba el import edu.uoc.ds.adt.util.SpiralGenerator;
+Lo que lo añadí para poder generar los puntos de la espiral.
+
+Ademas tambien ajuste, la cola y la pila ya que tenían capacidad fija de 10,
+lo que daba FullContainerException. Añadí constructores que permiten definir la
+capacidad según el número de puntos generados, así los tests pueden insertar
+todos los puntos sin problemas.
+
+Tambien decir, que los test y por ejemplo la clase Point y poem.xml lo he importado de el ZIP compartido de
+DS_PR1_TEST2

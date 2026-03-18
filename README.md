@@ -1,13 +1,13 @@
 Parte 2 – Espiral de Arquímedes
-📌 Objetivo
+Objetivo
 
 Modificar la implementación base de pila y cola para que trabajen con objetos de tipo Point, y almacenar los N primeros puntos de una espiral de Arquímedes.
 
-📐 Concepto
+Concepto
 
 La espiral de Arquímedes es una curva generada por un punto que gira alrededor de un centro mientras se aleja de él a velocidad constante.
 
-⚙️ Implementación
+ Implementación
 
 Adaptación de:
 

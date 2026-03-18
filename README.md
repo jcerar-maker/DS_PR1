@@ -27,7 +27,7 @@ Una cola
 
 Una pila
 
-🧪 Tests
+ Tests
 
 Verificación de inserción en cola
 
